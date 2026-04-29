@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function ProductShowcase3() {
     return (
-        <section className="w-full min-h-screen bg-black text-white flex items-center justify-center px-6 py-16">
+        <section className="w-full bg-black text-white flex items-center justify-center px-6 py-10">
 
             <div className="max-w-7xl w-full grid md:grid-cols-2 gap-12 items-center">
 

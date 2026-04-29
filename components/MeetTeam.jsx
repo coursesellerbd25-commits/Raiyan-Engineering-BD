@@ -4,23 +4,23 @@ import { motion } from "framer-motion";
 
 const team = [
     {
-        name: "John Doe",
+        name: "Naimul Karim Zishan",
         role: "CEO & Founder",
-        image: "/meetteam/member1.jpg",
+        image: "/team/Zishan1.jpg",
         whatsapp: "https://wa.me/8801234567890",
         messenger: "https://m.me/username",
     },
     {
-        name: "Jane Smith",
+        name: "Naimul Karim Zishan",
         role: "Creative Director",
-        image: "/meetteam/member2.jpg",
+        image: "/team/Zishan2.jpg",
         whatsapp: "https://wa.me/8801234567890",
         messenger: "https://m.me/username",
     },
     {
-        name: "Michael Lee",
+        name: "Naimul Karim Zishan",
         role: "Lead Developer",
-        image: "/meetteam/member3.jpg",
+        image: "/team/Zishan3.jpg",
         whatsapp: "https://wa.me/8801234567890",
         messenger: "https://m.me/username",
     },
@@ -80,11 +80,11 @@ export default function MeetTeam() {
                                 </a>
 
                                 {/*Messenger*/}
-                                <a href={member.messenger} target="_blank">
+                                {/*<a href={member.messenger} target="_blank">
                                     <button className="bg-blue-500/30 hover:bg-blue-600/50 text-white px-4 py-2 rounded-lg text-sm transition">
                                         Let's Talk 
                                     </button>
-                                </a>
+                                </a>*/}
 
                             </div>
                         </div>

@@ -21,7 +21,7 @@ export default function RealMap() {
                     </div>
 
                     {/*Map2*/}
-                    <div className="w-full h-[400px] rounded-2xl overflow-hidden shadow-lg">
+                    {/*<div className="w-full h-[400px] rounded-2xl overflow-hidden shadow-lg">
                         <iframe 
                             src="https://maps.google.com/maps?q=Chittagong,Bangladesh&z=15&output=embed"
                             width="100%"
@@ -30,7 +30,7 @@ export default function RealMap() {
                             allowFullScreen=""
                             loading="lazy"
                         ></iframe>
-                    </div>
+                    </div>*/}
                 
                 </div>
             

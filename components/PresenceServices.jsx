@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function PresenceServices() {
     const sectionRef = useRef(null);
@@ -34,9 +35,11 @@ export default function PresenceServices() {
                         visible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
                     }`}
                 >
-                    <img 
-                        src="/map.jpg"
+                    <Image  
+                        src="/map2.jpg"
                         alt="Our Location"
+                        width={1600}
+                        height={1000}
                         className="rounded-2xl shadow-lg w-full object-cover"
                     />
                 </div>
@@ -77,19 +80,11 @@ export default function PresenceServices() {
                     <div className="mt-8 flex flex-wrap gap-4">
 
                         <Link 
-                            href="/services"
+                            href="/supply"
                             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition"
                         >
                             Explore Services →
                         </Link>
-
-                        <a 
-                            href="/brochure.pdf"
-                            download
-                            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition"
-                        >
-                            Download Company Brochure 
-                        </a>
 
                     </div>
                 </div>

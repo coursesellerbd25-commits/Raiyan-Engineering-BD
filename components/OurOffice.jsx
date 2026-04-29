@@ -9,7 +9,7 @@ const offices = [
         phone: "+8801234567890",
         email: "info@company.com",
     },
-    {
+    /*{
         title: "Head Office",
         address: "Dhaka, Bangladesh",
         phone: "+8801234567890",
@@ -20,7 +20,7 @@ const offices = [
         address: "Sylhet, Bangladesh",
         phone: "+8801234567890",
         email: "sylhet@company.com",
-    },
+    },*/
 ];
 
 export default function OurOffice() {

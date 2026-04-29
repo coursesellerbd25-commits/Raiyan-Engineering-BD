@@ -1,11 +1,31 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function Counter({ target, label }) {
     const [count, setCount] = useState(0);
+    const [started, setStarted] = useState(false);
+    const ref = useRef(null);
 
     useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setStarted(true);
+                    observer.disconnect();
+                }
+            },
+            { threshold: 0.4 }
+        );
+
+        if (ref.current) observer.observe(ref.current);
+
+        return () => observer.disconnect();
+    }, []);
+
+    useEffect(() => {
+        if (!started) return;
+
         let start = 0;
         const duration = 1500;
         const increment = target / (duration / 16);
@@ -21,10 +41,10 @@ function Counter({ target, label }) {
         }, 16);
 
         return () => clearInterval(timer);
-    }, [target]);
+    }, [started, target]);
 
     return (
-        <div className="text-center">
+        <div ref={ref} className="text-center">
             <h3 className="text-3xl md:text-4xl font-bold text-blue-600">
                 {count}+
             </h3>

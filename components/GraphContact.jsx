@@ -69,6 +69,9 @@ export default function GraphContact() {
                     viewport={{ once: true }}
                     className="w-full h-[300px]"
                 >
+                    <h3 className="text-xl md:text-2xl font-semibold mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+                        Meet Our Growth Graph per Month
+                    </h3>
                     <ResponsiveContainer width="100%" height="100%">
                         <LineChart data={data}>
                             <XAxis dataKey="month" stroke="#aaa" />

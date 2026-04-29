@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Phone, Mail, MapPin } from "lucide-react";
-import { FaFacebookF, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
     return (
@@ -14,7 +14,10 @@ export default function Footer() {
 
                     {/*Column 1 - Company*/}
                     <div className="-mt-4">
-                        <Image src="/logos/raiyan.png" width={140} height={50} alt="logo" />
+                        {/*<Image src="/logos/raiyan.png" width={140} height={50} alt="logo" />*/}
+                        <h3 className="text-xl font-bold text-white">
+                            Raiyan Engineering BD
+                        </h3>
                         <p className="text-sm leading-relaxed">
                             We deliver innovation and sustainable solutions to empower businesses
                             and communities. Our mission is to create impactful projects that
@@ -33,7 +36,7 @@ export default function Footer() {
                         <ul className="space-y-3">
                             {[
                                 { name: "About Us", href: "/about" },
-                                { name: "Our Services", href: "/services" },
+                                { name: "Our Supplies", href: "/supply" },
                                 { name: "Contact Us", href: "/contact" }
                             ].map((link, i) => (
                                 <li key={i}>
@@ -86,16 +89,7 @@ export default function Footer() {
                     {/*Social Icons*/}
                     <div className="flex gap-5">
                         <a href="#" className="hover:text-white transition">
-                            <FaFacebookF size={18} />
-                        </a>
-                        <a href="#" className="hover:text-white transition">
                             <FaWhatsapp size={18} />
-                        </a>
-                        <a href="#" className="hover:text-white transition">
-                            <FaLinkedin size={18} />
-                        </a>
-                        <a href="#" className="hover:text-white transition">
-                            <FaTwitter size={18} />
                         </a>
                     </div>
 

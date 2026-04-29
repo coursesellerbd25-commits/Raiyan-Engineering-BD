@@ -40,17 +40,7 @@ export default function ContactCard({
 
             {/*Buttons*/}
             <div className="flex gap-3 w-full">
-
-                {/*Messenger*/}
-                <a 
-                    href={messenger}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1 text-center py-2 rounded-lg bg-blue-500/10 text-blue-400 border border-blue-500/20 hover:bg-blue-500/20 transition text-sm font-medium"
-                >
-                    Let's Talk 
-                </a>
-
+                
                 {/*WhatsApp*/}
                 <a 
                     href={whatsapp}

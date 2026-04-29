@@ -20,7 +20,7 @@ export default function TopBar() {
             </div>
 
             {/*Right: Socials*/}
-            <div className="flex items-center gap-4">
+            {/*<div className="flex items-center gap-4">
                 <a
                  href="#"
                  className="hover:text-blue-400 transition"
@@ -33,7 +33,7 @@ export default function TopBar() {
                 >
                     LinkedIn
                 </a>
-            </div>
+            </div>*/}
         </div>
     );
 }
