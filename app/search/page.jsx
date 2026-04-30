@@ -1,7 +1,12 @@
 "use client";
+
+export const dynamic = "force-dynamic";
+
 import { useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 export default function SearchPage() {
+    const router = useRouter();
     const searchParams = useSearchParams();
     const query = searchParams.get("q")?.toLowerCase() || "";
 
@@ -32,7 +37,7 @@ export default function SearchPage() {
                         <div 
                             key={i}
                             className="p-4 border rounded-lg hover:bg-gray-50 cursor-pointer"
-                            onClick={() => window.location.href = item.link}
+                            onClick={() => router.push(item.link)}
                         >
                             {item.title}
                         </div>
