@@ -56,12 +56,127 @@ The Project Focuses on:
 ## 📷 Screenshots
 
 ### Desktop View
-<img width="1918" height="908" alt="LinkedIn Media Pic" src="https://github.com/user-attachments/assets/a389575e-5035-4e2b-b628-e4560e9cc361" />
+<img width="1918" height="908" alt="desktop" src="https://github.com/user-attachments/assets/a389575e-5035-4e2b-b628-e4560e9cc361" />
 
 ```md
 /public/screenshots/desktop.png
 ```
 
 ### Mobile View
+<img width="720" height="1410" alt="mobile" src="https://github.com/user-attachments/assets/aefe2134-77c8-4694-98a7-222479763f58" />
 
+```md
+/public/screenshots/mobile.png
+```
 
+---
+
+## Installation & Setup
+
+Clone the repository: 
+
+```bash
+git clone https://github.com/coursesellerbd25-commits/Raiyan-Engineering-BD.git
+```
+
+Go to project directory:
+
+```bash
+cd Raiyan-Engineering-BD
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open in browser:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## 📂 Project Structure
+```bash
+Raiyan-Engineering-BD/
+|
+├── public/
+├── src/
+├── components
+├── app/
+├── styles/
+├── package.json
+└──README.md
+```
+
+--- 
+
+## 🚀 Deployment
+
+The project is deployed using Vercel for fast global performance and seamless production deployment.
+
+To deploy:
+
+```bash
+vercel
+```
+
+---
+
+## 🧩 Challenges Faced
+
+One of the main challenges during development was maintaining responsive layouts across different screen sizes while keeping the engineering-focused branding visually clean and professional.
+
+Additional improvements included:
+
+- Optimizing mobile navigation
+- Structure reusable components
+- Improving layout spacing consistency
+- Managing responsive image rendering
+- Added backend contact form integration
+- Added animations and loading transitions
+
+---
+
+## 📈 What I Learnt
+
+Through this project, I improved my understanding of: 
+
+- Responsive frontend architecture
+- Next.js project structuring
+- Modern UI/UX practices
+- Tailwind CSS utility workflow
+- Production deployment with Vercel
+- Performance-focused frontend development
+
+---
+
+## 🔮 Future Improvements
+
+- Introduce admin dashboard
+- Add multilingual support
+- Improve SEO optimization
+
+---
+
+## 👨‍💻 Auther
+
+Developed by Sultana Jahan Tahmina
+
+- Github: https://github.com/coursesellerbd25-commits
+- Portfolio: https://coursesellerbd25-commits.github.io/My-Portfolio-2025/
+
+---
+
+## ⭐ Support 
+
+If you like this project, consider giving it a star on GitHub 
