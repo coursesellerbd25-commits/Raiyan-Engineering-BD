@@ -65,7 +65,7 @@ export default function FloatingContact() {
 
                 {/*Email*/}
                 <a 
-                    href="mailto:info@company.com"
+                    href="mailto:raiyan.engineering2024@gmail.com"
                     className="flex items-center gap-3 bg-gray-700 text-white px-5 py-2.5 rounded-full shadow-md hover:shadow-xl hover:-translate-y-1 hover:scale-105 transition-all duration-200"
                 >
                     <Mail size={18} />

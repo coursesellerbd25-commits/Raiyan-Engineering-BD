@@ -7,7 +7,6 @@ export default function ClientSlider() {
         "/logos/cp.png",
         "/logos/google.png",
         "/logos/nestle.png",
-        "/logos/raiyan.png",
         "/logos/uniliver.png",
     ];
 

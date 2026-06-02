@@ -6,24 +6,21 @@ export default function ContactList() {
             <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 
                 <ContactCard 
-                    name="John Doe"
-                    role="Project Manager"
+                    name="Naimul Karim"
                     image="/contactTeam/leader1.jpg"
                     whatsapp="https://wa.me/8801234567890"
                     messenger="https://m.me/username"
                 />
 
                 <ContactCard 
-                    name="Sarah Khan"
-                    role="Client Support"
-                    image="/contactTeam/leader2.jpg"
+                    name="Kafil Uddin"
+                    image="/contactTeam/leader1.jpg"
                     whatsapp="https://wa.me/8801234567890"
                     messenger="https://m.me/username"
                 />
 
                 <ContactCard 
-                name="John Smith"
-                role="CEO"
+                name="Imtiaz Hasan"
                 image="/contactTeam/leader1.jpg"
                 whatsapp="https://wa.me/8801234567890"
                 messenger="https://m.me/username"

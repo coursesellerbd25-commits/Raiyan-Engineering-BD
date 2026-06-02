@@ -4,22 +4,19 @@ import { motion } from "framer-motion";
 
 const team = [
     {
-        name: "John Doe",
-        role: "CEO & Founder",
+        name: "Naimul Karim",
         image: "/contactTeam/leader1.jpg",
         whatsapp: "https://wa.me/8801234567890",
         messenger: "https://m.me/username",
     },
     {
-        name: "Sarah Khan",
-        role: "Creative Director",
-        image: "/contactTeam/leader2.jpg",
+        name: "Kafil Uddin",
+        image: "/contactTeam/leader1.jpg",
         whatsapp: "https://wa.me/8801234567890",
         messenger: "https://m.me/username",
     },
     {
-        name: "John Smith",
-        role: "Lead Developer",
+        name: "Imtiaz Hasan",
         image: "/contactTeam/leader1.jpg",
         whatsapp: "https://wa.me/8801234567890",
         messenger: "https://m.me/username",

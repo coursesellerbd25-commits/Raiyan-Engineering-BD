@@ -5,7 +5,6 @@ export default function LogoSlider() {
         "/logos/cp.png",
         "/logos/nestle.png",
         "/logos/uniliver.png",
-        "/logos/raiyan.png",
         "/logos/google.png",
     ];
 

@@ -30,14 +30,6 @@ export default function Collaborator() {
                     className="object-contain opacity-80 hover:opacity-100 transition duration-300"
                 />
 
-                <Image 
-                    src="/collabs/raiyan.png"
-                    alt="Collaborator 3"
-                    width={90}
-                    height={80}
-                    className="object-contain opacity-80 hover:opacity-100 transition duration-300"
-                />
-
             </div>
         </section>
 

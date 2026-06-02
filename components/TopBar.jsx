@@ -15,7 +15,7 @@ export default function TopBar() {
                 <span className="hidden sm:inline text-gray-500">|</span>
                 <span className="items-center gap-2 hover:text-white transition hidden sm:flex">
                 <Mail size={14} className="shrink-0 "/>
-                     info@company.com
+                     raiyan.engineering2024@gmail.com
                 </span>
             </div>
 

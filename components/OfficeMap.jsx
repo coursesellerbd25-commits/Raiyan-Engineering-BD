@@ -8,7 +8,7 @@ const offices = [
         title: "Corporate Office",
         address: "Chittagong, Bangladesh",
         phone: "+8801234567890",
-        email: "info@company.com",
+        email: "raiyan.engineering2024@gmail.com",
     },
 ];
 

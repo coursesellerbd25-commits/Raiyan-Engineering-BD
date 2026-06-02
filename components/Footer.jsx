@@ -71,7 +71,7 @@ export default function Footer() {
 
                             <div className="flex items-center gap-3 group">
                                 <Mail className="w-5 h-5 group-hover:text-white transition" />
-                                <span>info@company.com</span>
+                                <span>raiyan.engineering2024@gmail.com</span>
                             </div>
                             
                         </div>
@@ -83,7 +83,7 @@ export default function Footer() {
 
                     {/*© Text*/}
                     <p className="text-sm text-center md:text-left">
-                       © Copyright 2026 MyCompany. All Rights Reserved  
+                       © Copyright 2026 Raiyan Engineering BD. All Rights Reserved  
                     </p>
 
                     {/*Social Icons*/}
