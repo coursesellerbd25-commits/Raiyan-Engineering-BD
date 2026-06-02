@@ -130,10 +130,10 @@ export default function Navbar() {
 
             {/* CTA */}
             <a
-                href="https://wa.me/8801712345678?text=Hello%20I%20would%20like%20a%20quote."
+                href="https://wa.me/8801234567890?text=Hello%20I%20would%20like%20a%20quote."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-600 text-white px-5 py-2 rounded-full hover:bg-green-700 transition whitespace-nowrap inline-block"
+                className="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-green-700 transition whitespace-nowrap inline-block"
             >
             Get Quote
             </a>
